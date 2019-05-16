@@ -1,4 +1,4 @@
-# kou-lab
+# 耕らぼ Web Site
 
 > My funkadelic Nuxt.js project
 
