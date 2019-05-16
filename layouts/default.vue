@@ -5,7 +5,7 @@
       fixed
       app
     >
-      <v-toolbar-title v-text="title" />
+      <v-toolbar-title v-text="title" @click="$vuetify.goTo('#app')"/>
       <v-spacer />
       <div class="text-xs-center">
         <v-btn color="teal" class="white--text email-btn-text" @click="$vuetify.goTo('.contact')">
@@ -45,7 +45,7 @@
       :fixed="fixed"
       app
     >
-      <span>&copy;2019 耕らぼ</span>
+      <span>&copy;2019- KOU LAB</span>
     </v-footer>
   </v-app>
 </template>

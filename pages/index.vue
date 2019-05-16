@@ -9,7 +9,6 @@
           </v-card-title>
           <v-card-text class="card-text">
             「農」と「食」に関わる活動に取組み、<br/>「食」を豊かに、「心」を豊かにします。<br/><br/>
-
             <ul type="square">
               <li>安全で美味しい『食』を提供するため、私たちは常に努力・探求し続けます。</li>
               <li>野菜づくりは土づくり、人づくり。自然に感謝し、常に人に感謝の心を持って活動します。</li>
@@ -52,26 +51,19 @@
           </v-layout>
         </v-card>
       </v-flex>
-      <v-flex xs12>
-        <v-card flat class="about">
-          <v-data-table
-            :headers="headers"
-            :items="farms"
-            class="elevation-1"
-          >
-
-          </v-data-table>
-        </v-card>
-      </v-flex>
+      <farm></farm>
       <contact></contact>
     </v-layout>
   </v-container>
 </template>
 
 <script>
+import farm from '@/components/Farm.vue'
 import contact from '@/components/Contact.vue'
+
 export default {
   components:{
+    farm,
     contact
   }
 }
@@ -86,11 +78,17 @@ export default {
   .title-eng {
     margin-right: 10px;
   }
-  .descript {
-  }
+
   .desc-devide {
     margin-left: 10px;
     margin-right: 10px;
+  }
+
+  /* スマホ横以上 */
+  @media screen and (min-width: 481px) {
+    .title-eng {
+      margin-right: 20px;
+    }
   }
 
 </style>
