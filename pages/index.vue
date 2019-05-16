@@ -2,7 +2,7 @@
 <v-container fluid grid-list-lg>
   <v-layout row wrap>
     <v-flex xs12>
-      <v-card flat>
+      <v-card flat class="about">
         <v-card-title primary-title>
             <div class="display-1 font-weight-bold title-eng">About</div>
             <div class="descript"><span class="grey--text">「耕らぼ」について</span></div>
@@ -18,7 +18,7 @@
       </v-card>
     </v-flex>
     <v-flex xs12>
-      <v-card flat>
+      <v-card flat class="service">
         <v-card-title primary-title>
             <div class="display-1 font-weight-bold title-eng">Service and Style</div>
             <div class="descript"><span class="grey--text">事業内容<span class="desc-devide">|</span>活動スタイル</span></div>
@@ -26,7 +26,7 @@
         <v-layout wrap>
           <v-flex xs12 sm6>
             <v-card flat>
-              <v-img :src="require('@/assets/sarad.jpg')"></v-img>
+              <v-img :src="require('@/assets/salad.jpg')"></v-img>
               <v-card-title primary-title>
                   <div class="headline font-weight-bold">サービス</div>
               </v-card-title>
