@@ -8,10 +8,8 @@
       <v-toolbar-title v-text="title" />
       <v-spacer />
       <div class="text-xs-center">
-        <v-btn fab small color="teal" class="white--text hidden-xl-and-down">
-          <v-icon light>email</v-icon>
-        </v-btn>
-        <v-btn color="teal" class="white--text hidden-xs-and-down hidden-sm-and-down">お問い合わせ
+        <v-btn color="teal" class="white--text email-btn-text" @click="$vuetify.goTo('.contact')">
+          お問い合わせ
           <v-icon light right>email</v-icon>
         </v-btn>
       </div>
