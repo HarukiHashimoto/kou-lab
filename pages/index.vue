@@ -52,6 +52,7 @@
         </v-card>
       </v-flex>
       <farm></farm>
+      <product></product>
       <contact></contact>
     </v-layout>
   </v-container>
@@ -60,11 +61,13 @@
 <script>
 import farm from '@/components/Farm.vue'
 import contact from '@/components/Contact.vue'
+import product from '@/components/Product.vue'
 
 export default {
   components:{
     farm,
-    contact
+    contact,
+    product
   }
 }
 </script>
