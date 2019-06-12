@@ -1,6 +1,6 @@
 # 耕らぼ Web Site
 
-> My funkadelic Nuxt.js project
+> 耕らぼのHPです。
 
 ## Build Setup
 
