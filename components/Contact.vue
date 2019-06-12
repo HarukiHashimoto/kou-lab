@@ -9,7 +9,7 @@
       </v-card-text>
       <v-layout justify-center>
         <v-flex xs10 sm7 md6 lg5 xl4 text-xs-center>
-          <form>
+          <form method="POST" name="contact" netlify>
           <v-text-field
             label="氏名"
             solo
@@ -34,7 +34,7 @@
             background-color="#ebebeb"
             name="text"
           ></v-textarea>
-          <v-btn color="teal" class="white--text font-weight-bold" block large>メール作成</v-btn>
+          <v-btn type="submit" color="teal" class="white--text font-weight-bold" block large>メール作成</v-btn>
         </form>
         </v-flex>
       </v-layout>
@@ -49,8 +49,7 @@ export default {
       name: '',
       email: '',
       title: '',
-      content: '',
-      isSubmit: false
+      content: ''
     }
   }
 }
