@@ -23,6 +23,7 @@
             background-color="#ebebeb"
             required
             name="email"
+            type="email"
           ></v-text-field>
           <v-text-field
             label="お問い合わせタイトル"
