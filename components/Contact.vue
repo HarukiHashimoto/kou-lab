@@ -15,24 +15,28 @@
             solo
             background-color="#ebebeb"
             name="name"
+            required
           ></v-text-field>
           <v-text-field
             label="メールアドレス"
             solo
             background-color="#ebebeb"
             name="email"
+            required
           ></v-text-field>
           <v-text-field
             label="お問い合わせタイトル"
             solo
             background-color="#ebebeb"
             name="title"
+            required
           ></v-text-field>
           <v-textarea
             label="お問い合わせ内容"
             solo
             background-color="#ebebeb"
             name="text"
+            required
           ></v-textarea>
           <v-btn type="submit" color="teal" class="white--text font-weight-bold" block large>メール作成</v-btn>
         </form>
@@ -43,16 +47,6 @@
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      name: '',
-      email: '',
-      title: '',
-      content: ''
-    }
-  }
-}
 </script>
 
 <style>
