@@ -5,7 +5,7 @@
           <div class="display-1 font-weight-bold title-eng">Products</div>
           <div class="descript"><span class="grey--text">栽培品目</span></div>
       </v-card-title>
-      <v-img :src="require('@/assets/salad.jpg')"></v-img>
+      <v-img :src="require('@/static/salad.jpg')"></v-img>
       <v-layout wrap justify-center>
         <template v-for="item of items">
           <v-flex xs12 sm4>

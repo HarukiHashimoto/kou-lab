@@ -41,7 +41,7 @@
 
 <style>
   .contact {
-    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('~@/assets/contact.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('~@/static/contact.jpg');
     background-position: center;
     background-size: cover;
     position: relative;

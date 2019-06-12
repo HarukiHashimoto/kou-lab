@@ -64,6 +64,9 @@ export default {
     ** You can extend webpack config here
     */
     extend(config, ctx) {
+      performance: {
+        maxAssetSize: 100000000000
+      }
     }
   }
 }

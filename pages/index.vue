@@ -25,7 +25,7 @@
           <v-layout wrap>
             <v-flex xs12 sm6>
               <v-card flat>
-                <v-img :src="require('@/assets/salad.jpg')"></v-img>
+                <v-img :src="require('@/static/salad.jpg')"></v-img>
                 <v-card-title primary-title>
                     <div class="headline font-weight-bold">サービス</div>
                 </v-card-title>
@@ -37,7 +37,7 @@
             </v-flex>
             <v-flex xs12 sm6>
               <v-card flat>
-                <v-img :src="require('@/assets/saibai-s.jpg')"></v-img>
+                <v-img :src="require('@/static/saibai-s.jpg')"></v-img>
                 <v-card-title primary-title>
                     <div class="headline font-weight-bold">栽培</div>
                 </v-card-title>

@@ -80,7 +80,7 @@ export default {
 
 <style>
   #home {
-    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('~@/assets/header.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('~@/static/header.jpg');
     background-position: center;
     background-size: cover;
     position: relative;
