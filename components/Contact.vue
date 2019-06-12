@@ -9,26 +9,33 @@
       </v-card-text>
       <v-layout justify-center>
         <v-flex xs10 sm7 md6 lg5 xl4 text-xs-center>
+          <form method="POST" name="contact" netlify>
           <v-text-field
             label="氏名"
             solo
             background-color="#ebebeb"
+            name="name"
           ></v-text-field>
           <v-text-field
             label="メールアドレス"
             solo
             background-color="#ebebeb"
+            name="email"
           ></v-text-field>
           <v-text-field
             label="お問い合わせタイトル"
             solo
             background-color="#ebebeb"
+            name="title"
           ></v-text-field>
           <v-textarea
             label="お問い合わせ内容"
             solo
+            background-color="#ebebeb"
+            name="text"
           ></v-textarea>
-          <v-btn color="teal" class="white--text font-weight-bold" block large>メール作成</v-btn>
+          <v-btn type="submit" color="teal" class="white--text font-weight-bold" block large>メール作成</v-btn>
+        </form>
         </v-flex>
       </v-layout>
     </v-card>
@@ -36,7 +43,16 @@
 </template>
 
 <script>
-
+export default {
+  data() {
+    return {
+      name: '',
+      email: '',
+      title: '',
+      content: ''
+    }
+  }
+}
 </script>
 
 <style>
