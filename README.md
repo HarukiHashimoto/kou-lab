@@ -1,8 +1,14 @@
-# 耕らぼ Web Site
+# ふくふく農園 Web Site
 
-> 耕らぼのHPです。
+> ふくふく農園のHPです。ふくふく農園は耕らぼによって運営されています。
 
-## Build Setup
+## 使っている技術
+Nuxt: v2.8.1
+Vuetify: v1.5.5
+
+Netlify
+
+## ビルド手順
 
 ``` bash
 # install dependencies
