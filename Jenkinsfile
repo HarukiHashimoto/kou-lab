@@ -8,7 +8,7 @@ pipeline {
     }
     stage('') {
       steps {
-        sh 'npm run generate'
+        sh 'node -v'
       }
     }
   }
