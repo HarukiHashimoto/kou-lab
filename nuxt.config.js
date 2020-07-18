@@ -8,7 +8,7 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: '耕らぼ',
+    title: 'ふくふく農園 by 耕らぼ',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
